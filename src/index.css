@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-poppins;
+}
+/* Custom Swiper scrollbar styling */
+
+.testimonial-slider .swiper-scrollbar-drag {
+  background-color: #1e3a8a !important;
+}
+.testimonial-slider .swiper-scrollbar {
+  background-color: #ffffffa8 !important;
+
+}
+
